@@ -1,0 +1,115 @@
+@media print {
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+}
+.blogtitle {
+	font-size: 50px;
+	padding-top: 5%;
+	text-align: center;
+	font-family: "Shadows Into Light";
+}
+
+a:link {
+	color: #8EBDC7;
+	font-family: "Shadows Into Light";
+	font-size: 2opx;
+}
+
+a:hover {
+	color: darkgrey;
+	font-family: "Shadows Into Light";
+	font-size: 20px;
+	text-decoration: none;
+	opacity: 0.5;
+}
+
+a:visited {
+	color: #8EBDC7;
+	font-family: "Open Sans";
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.content {
+	padding-left: 50vw;
+	padding-top: 15vh;
+	color: #464646;
+	font-family: "Shadows Into Light";
+	font-size: 16px;
+	opacity: 0.90;
+}
+
+
+ul {
+	width: 100vw;
+	margin: 10px;
+	display: inline-flex;
+	list-style: none;
+}
+
+.text-center {
+	padding-left: 42vw;
+}
+
+.nav {
+	text-align: right;
+	padding: 8px;
+	font-size: 18px;
+}
+
+
+.foot-center {
+	padding-left: 41%;
+}
+
+.web {
+	padding: 20px;
+}
+
+.foot {
+	width: 30px;
+	height: auto;
+}
+.timeline {
+	margin-top: 15%;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+.container-professional {
+	height: 100vh;
+	width: 100vw;
+  background-color: #e9e9e9;
+}
+.box-one {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	background-color: #93999f;
+	opacity: .75;
+}
+
+.box-two {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	background-color: #5e3c58;
+	opacity: .75;
+	z-index: initial;
+}
+.coming-soon {
+	padding-top: 50%;
+	text-align: center;
+	color: lightgray;
+	font-family: "Shadows Into Light";
+	font-size: 18px;
+}
+.box-three {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	background-color: #bfb5b2;
+	opacity: .75;
+}
